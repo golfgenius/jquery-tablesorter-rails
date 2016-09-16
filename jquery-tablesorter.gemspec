@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{vendor,lib}/**/*"] + %w( MIT-LICENSE Rakefile README.md )
 
-  s.add_dependency 'railties', '>= 3.1', '< 5'
+  s.add_dependency 'railties', '>= 3.1', '< 6'
 end
